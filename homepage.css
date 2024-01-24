@@ -1,0 +1,92 @@
+@charset "utf-8";
+ body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+    }
+
+    .header {
+      padding: 50px;
+      text-align: center;
+      background: #FFFFFF;
+      color: white;
+      background-color: #FFFFFF;
+    }
+
+    .header h1 {
+      font-size: 44px;
+      font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+      text-align: center;
+      color: #071047;
+    }
+
+    .about-me {
+      padding: 20px;
+      text-align: center;
+      background-color: #DEBDBD;
+      color: #FFFFFF;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+	  margin: 30px 0;
+    }
+
+    th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: justify;
+    color: #000000;
+    }
+
+    th {
+      background-color: #DEBDBD;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #DEBDBD;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 20px 18px;
+      text-decoration: none;
+    }
+
+    li a:hover:not(.active) {
+      background-color: #000000;
+    }
+
+    .active {
+      background-color: #000000;
+    }
+	.navigation-button {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .big-button {
+      display: inline-block;
+      padding: 20px 30px;
+      font-size: 18px;
+      background-color: #5E77B0;
+      color: #FFFFFF;
+      text-decoration: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .big-button:hover {
+      background-color: #3A4D80;
+    }
+
